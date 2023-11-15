@@ -43,6 +43,9 @@ find_library( # Sets the name of the path variable.
 target_link_libraries( # Specifies the target library.
                        native-lib
 
+                        android     # 引入这个可以使用ANativeWindow
+                        GLESv3      # 必须引入的OpenGL ES库
+                        EGL         # 与本地窗口交互的工具
 
                        # Links the target library to the log library
                        # included in the NDK.
