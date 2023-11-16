@@ -75,7 +75,9 @@ public class EGLDemoActivity extends AppCompatActivity {
                 if (player == -1) {
                     player = createGLRender(holder.getSurface());
                 }
+
                 showBitmap(player, BitmapFactory.decodeResource(getResources(), R.mipmap.ic_qxx));
+
             }
 
             @Override

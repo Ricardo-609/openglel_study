@@ -25,6 +25,7 @@ void ImageRender::DoDraw() {
     if (isReadyToDraw()) {
         if (!texture_loaded) {
             m_texture_id = OpenGLUtils::loadTexture(cst_data, m_origin_width, m_origin_height);
+
             texture_loaded = true;
         }
 

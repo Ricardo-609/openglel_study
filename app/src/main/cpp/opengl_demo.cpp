@@ -218,7 +218,8 @@ Java_com_ricardo_openglel_1study_EGLDemoActivity_showBitmap(JNIEnv *env, jobject
     }
     size_t count = info.stride * info.height;
 
-    unsigned char *resultData = (unsigned char *) malloc(count * sizeof(unsigned char));;
+    unsigned char *resultData = (unsigned char *) malloc(count * sizeof(unsigned char));
+
     memcpy(resultData, data, count);
 
     // 像素信息不再使用后需要解除锁定
@@ -226,10 +227,10 @@ Java_com_ricardo_openglel_1study_EGLDemoActivity_showBitmap(JNIEnv *env, jobject
     if (result != ANDROID_BITMAP_RESULT_SUCCESS) {
         LOGE("Player", "AndroidBitmap_unlockPixels failed, result: %d", result);
     }
+
     ImageRender *pImageRender = new ImageRender(info.width, info.height, resultData);
     GLRender *pGLRender = reinterpret_cast<GLRender *>(render);
     pGLRender->SetBitmapRender(pImageRender);
-
 }
 
 extern "C"
