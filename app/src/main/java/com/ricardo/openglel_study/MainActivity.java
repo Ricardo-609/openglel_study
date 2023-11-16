@@ -41,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    @OnClick({R.id.gLSurfaceView, R.id.egl, R.id.audio_video_h_a, R.id.video_h_async, R.id.audio_video_mp4,
-            R.id.audio_video_ffmpeg_h_a, R.id.ff_play, R.id.media_codec_play_av, R.id.media_codec_play_avsync})
+    @OnClick({R.id.gLSurfaceView, R.id.egl})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.gLSurfaceView:

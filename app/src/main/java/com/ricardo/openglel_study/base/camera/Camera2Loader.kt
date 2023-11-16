@@ -148,7 +148,7 @@ class Camera2Loader(private val activity: Activity) : CameraLoader() {
          */
         return outputSizes?.filter {
             it.width < maxPreviewWidth / 2 && it.height < maxPreviewHeight / 2
-        }?.maxBy {
+        }?.maxByOrNull {
             it.width * it.height
         } ?: Size(PREVIEW_WIDTH, PREVIEW_HEIGHT)
     }
