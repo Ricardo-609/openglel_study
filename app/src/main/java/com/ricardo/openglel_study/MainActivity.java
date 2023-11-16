@@ -2,6 +2,7 @@ package com.ricardo.openglel_study;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.opengl.EGLSurface;
 import android.os.Bundle;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
     }
+
 
     /**
      * A native method that is implemented by the 'native-lib' native library,
