@@ -23,7 +23,7 @@ JNIEXPORT jlong
 JNICALL
 Java_com_ricardo_openglel_1study_DemoActivity_createTriangleDrawer(JNIEnv *env, jobject thiz) {
     TriangleDrawer *triangleDrawer = new TriangleDrawer();
-    return (jint) triangleDrawer;
+    return (jlong) triangleDrawer;
 }
 
 extern "C"
@@ -59,7 +59,7 @@ Java_com_ricardo_openglel_1study_DemoActivity_createBitmapRender(JNIEnv *env, jo
         LOGE("Player", "AndroidBitmap_unlockPixels failed, result: %d", result);
     }
     ImageRender *pImageRender = new ImageRender(info.width, info.height, resultData);
-    return (jint) pImageRender;
+    return (jlong) pImageRender;
 }
 
 extern "C"
@@ -190,7 +190,7 @@ Java_com_ricardo_openglel_1study_EGLDemoActivity_createGLRender(JNIEnv *env, job
     GLRender *glRender = new GLRender(env);
 
     glRender->SetSurface(surface);
-    return (jint) glRender;
+    return (jlong) glRender;
 
 }
 
