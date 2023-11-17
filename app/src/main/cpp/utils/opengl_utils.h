@@ -1,6 +1,3 @@
-//
-// Created by poney.ma on 2020/10/28.
-//
 
 #ifndef BLOGDEMO_OPENGL_UTILS_H
 #define BLOGDEMO_OPENGL_UTILS_H

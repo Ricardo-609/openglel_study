@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/10/12.
-//
-
 #include "triangle_drawer.h"
 #include "../utils/logger.h"
 

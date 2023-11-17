@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/10/12.
-//
-
 #ifndef BLOGDEMO_BASE_DRAWER_H
 #define BLOGDEMO_BASE_DRAWER_H
 
@@ -25,9 +21,9 @@ protected:
 
 public:
 
-    BaseDrawer();
+    BaseDrawer() {}
 
-    ~BaseDrawer();
+    ~BaseDrawer() {}
 
     virtual void OnInit() = 0;
 

@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/9/16.
-//
-
 #ifndef WHEAT_OPENGL_RENDER_H
 #define WHEAT_OPENGL_RENDER_H
 

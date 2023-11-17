@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/10/12.
-//
-
 #ifndef BLOGDEMO_TRIANGLE_DRAWER_H
 #define BLOGDEMO_TRIANGLE_DRAWER_H
 

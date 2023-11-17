@@ -1,6 +1,3 @@
-//
-// Created by poney.ma on 2020/10/16.
-//
 
 #ifndef BLOGDEMO_IMAGE_RENDER_H
 #define BLOGDEMO_IMAGE_RENDER_H
@@ -41,7 +38,7 @@ private:
     // 自定义用户数据，可用于存放画面数据
     void *cst_data = NULL;
 
-    ImageFilter *m_filter;
+    ImageFilter *m_filter = NULL;
 
 
     GLuint m_texture_id = 0;

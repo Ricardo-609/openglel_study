@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/9/16.
-//
-
 #include "egl_core.h"
 #include "../utils/logger.h"
 

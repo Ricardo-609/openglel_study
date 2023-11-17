@@ -1,6 +1,3 @@
-//
-// Created by poney.ma on 2020/9/16.
-//
 #include <android/native_window.h>
 #include "egl_core.h"
 

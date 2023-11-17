@@ -1,7 +1,3 @@
-//
-// Created by cxp on 2019-07-31.
-//
-
 #ifndef LEARNVIDEO_LOGGER_H
 #define LEARNVIDEO_LOGGER_H
 

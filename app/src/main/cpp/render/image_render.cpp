@@ -1,6 +1,3 @@
-//
-// Created by poney.ma on 2020/10/16.
-//
 
 #include "image_render.h"
 #include "../utils/logger.h"

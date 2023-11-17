@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/9/16.
-//
-
 #include <unistd.h>
 #include <GLES2/gl2.h>
 #include "gl_render.h"

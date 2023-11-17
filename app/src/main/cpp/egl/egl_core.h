@@ -1,7 +1,3 @@
-//
-// Created by poney.ma on 2020/9/16.
-//
-
 #ifndef WHEAT_EGL_CORE_H
 #define WHEAT_EGL_CORE_H
 
@@ -18,7 +14,7 @@ private:
     //EGL上下文
     EGLContext m_egl_context = EGL_NO_CONTEXT;
     //EGL配置
-    EGLConfig m_egl_config;
+    EGLConfig m_egl_config = NULL;
 
     EGLConfig GetEGLConfig();
 
